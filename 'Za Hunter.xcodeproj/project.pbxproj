@@ -14,6 +14,7 @@
 		5E1476B32B7C1F9300D51196 /* _Za_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1476B22B7C1F9300D51196 /* _Za_HunterTests.swift */; };
 		5E1476BD2B7C1F9300D51196 /* _Za_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1476BC2B7C1F9300D51196 /* _Za_HunterUITests.swift */; };
 		5E1476BF2B7C1F9300D51196 /* _Za_HunterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1476BE2B7C1F9300D51196 /* _Za_HunterUITestsLaunchTests.swift */; };
+		5E1476CC2B7C213900D51196 /* LocationManager.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1476CB2B7C213900D51196 /* LocationManager.swift..swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5E1476B82B7C1F9300D51196 /* 'Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "'Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1476BC2B7C1F9300D51196 /* _Za_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Za_HunterUITests.swift; sourceTree = "<group>"; };
 		5E1476BE2B7C1F9300D51196 /* _Za_HunterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Za_HunterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E1476CB2B7C213900D51196 /* LocationManager.swift..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift..swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5E1476A32B7C1F8E00D51196 /* ContentView.swift */,
 				5E1476A52B7C1F9300D51196 /* Assets.xcassets */,
 				5E1476A72B7C1F9300D51196 /* Preview Content */,
+				5E1476CB2B7C213900D51196 /* LocationManager.swift..swift */,
 			);
 			path = "'Za Hunter";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1476CC2B7C213900D51196 /* LocationManager.swift..swift in Sources */,
 				5E1476A42B7C1F8E00D51196 /* ContentView.swift in Sources */,
 				5E1476A22B7C1F8E00D51196 /* _Za_HunterApp.swift in Sources */,
 			);
@@ -419,6 +423,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"'Za Hunter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"'Za Hunter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
